@@ -1,2 +1,3 @@
-# DOANQUANLIVATTUPHANBON-NMCNPM
-Ngôn ngữ lập trình C# với giao diện Winform, lập trình trên môi trường Window, 
+# ĐỒ ÁN QUẢN LÍ BÁN HÀNG VẬT TƯ PHÂN BÓN
+
+Project Title

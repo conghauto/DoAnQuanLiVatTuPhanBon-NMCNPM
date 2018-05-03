@@ -1,0 +1,1 @@
+SQLCMD -S DESKTOP-JFCSOM4 -E -i QuanLi.sql

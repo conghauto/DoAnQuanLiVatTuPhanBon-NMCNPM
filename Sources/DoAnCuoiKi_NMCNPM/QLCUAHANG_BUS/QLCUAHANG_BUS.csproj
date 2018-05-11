@@ -40,13 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ChiTietHoaDonBan_BUS.cs" />
+    <Compile Include="ChiTietHoaDonNhap_BUS.cs" />
+    <Compile Include="DaiLi_BUS.cs" />
+    <Compile Include="HoaDonBanHang_BUS.cs" />
+    <Compile Include="HoaDonNhapHang_BUS.cs" />
+    <Compile Include="KhachHang_BUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SanPhamCH_BUS.cs" />
+    <Compile Include="SanPhamDL_BUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QLCUAHANG_DAL\QLCUAHANG_DAL.csproj">
       <Project>{97b6b81c-0378-4b3f-b637-d2963afcdd79}</Project>
       <Name>QLCUAHANG_DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLCUAHANG_DTO\QLCUAHANG_DTO.csproj">
+      <Project>{E881E742-2D5B-42C8-86B4-57C840EA84B0}</Project>
+      <Name>QLCUAHANG_DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

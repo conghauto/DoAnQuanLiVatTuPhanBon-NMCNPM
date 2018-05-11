@@ -31,7 +31,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,11 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ChiTietHoaDonBan_DAL.cs" />
+    <Compile Include="ChiTietHoaDonNhap_DAL.cs" />
+    <Compile Include="DaiLi_DAL.cs" />
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="HoaDonBanHang_DAL.cs" />
+    <Compile Include="HoaDonNhapHang_DAL.cs" />
+    <Compile Include="KhachHang_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <Compile Include="SanPhamCH_DAL.cs" />
+    <Compile Include="SanPhamDL_DAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QLCUAHANG_DTO\QLCUAHANG_DTO.csproj">

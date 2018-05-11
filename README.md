@@ -1,7 +1,9 @@
 # PHẦN MỀM QUẢN LÍ BÁN HÀNG VẬT TƯ PHÂN BÓN
+## Thành viên
+1. Tô Công Hậu (KTPM2016) - Trưởng nhóm
+2. Trần Quốc Toàn (KTPM2016)
 ## Mô tả
 Phần mềm quản lý bán hàng vật tư được viết ra nhằm mục đích giúp các đại lý kinh doanh vật tư nhỏ  có thể quản lý công việc kinh doanh của mình nhanh, dễ dàng và thuận tiện.
- 
 ## Cấu trúc của phần mềm
 Phần mềm được thiết kế thân thiện với người dùng, có cấu trúc gồm:
    1. Phần đăng nhập vào phần mềm với tài khoản admin để bảo mật hơn khi quản lý công việc.
@@ -13,9 +15,12 @@ Phần mềm được thiết kế thân thiện với người dùng, có cấu
         -	Xuất phiếu hóa đơn khi bán hàng.
         -	Báo cáo số lượng hàng tồn trong kho.
         -	Báo cáo doanh số.
-        
+   3. Ngoài ra còn có các chức năng phụ như: Đăng xuất, đổi mật khẩu, đăng ký tài khoản mới,...    
 ## Công nghệ
-Phần mềm được viết bằng ngôn ngữ C# kết hợp hệ quản trị cơ sở dữ liệu SQLSever
+* Ngôn ngữ lập trình: C#.
+* Phần mềm lập trình: Visual Studio 2015.
+* Hệ quản trị cơ sở dữ liệu:  SQL Sever 2014 Management Studio.
+* DevExpress 17.1
 
 ## Môi trường cài đặt
 Để cài đặt và sử dụng tốt phần mềm, ta cần các yếu tố sau

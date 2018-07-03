@@ -1,0 +1,1 @@
+SQLCMD -S DESKTOP-KHF9K36 -E -i QuanLi.sql
